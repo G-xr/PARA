@@ -11,8 +11,6 @@ Mining the embedded information in antibody amino acid sequences can benefit ant
 
 The PARA model addresses these gaps by employing a training strategy that conforms to antibody sequence patterns, using an advanced NLP self-encoding model structure. Our results demonstrate that PARA significantly outperforms selected antibody pre-training models, highlighting its capability to capture antibody sequence information effectively.
 
-## Results
-PARA has been evaluated on several tasks and has shown to outperform other published pre-training models of antibodies, indicating its superior ability to capture the nuances of antibody sequence information.
 
 ## Usage
 
