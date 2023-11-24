@@ -27,7 +27,8 @@ PARA has been evaluated on several tasks and has shown to outperform other publi
 
 ## Usage
 
-We have open-sourced the PARA model within our GitHub repository, accompanied by a prediction script named `inference.py`. This script is adept at predicting missing segments within antibody sequences and is also capable of extracting the latent vector representations of these sequences after being encoded by the PARA model. To execute `inference.py`, it is imperative to supply the path to both the tokenizer and the model weights. An example of how to run the script is provided below:
+In our GitHub project, we have open-sourced the PARA model and provided an inference script, `inference.py`, which is capable of predicting missing parts in antibody sequences and extracting the latent vector representations post-PARA encoding. To run `inference.py`, you will need to specify the location of the tokenizer and the model weights. While the tokenizer has been made available, we will provide the model weights file at a later date, once an appropriate online hosting solution is found. For a practical usage example, you can run the following command:
 
 ```bash
 python inference.py -m model_zoo/model.pt -t path_to_abtokenizer
+
