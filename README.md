@@ -18,6 +18,7 @@ In our GitHub project, we have open-sourced the PARA model and provided an infer
 
 ```bash
 python inference.py -m model_zoo/model_para.pt -t abtokenizer/
+```
 
 For tasks involving the prediction of specific residue categories within antibody sequences, we recommend using the hidden states from the last layer of the PARA model. For predictions related to antibody properties, we suggest using the hidden states from the third-to-last or fourth-to-last layers. This is because the hidden states from the last two layers are highly specialized for residue prediction, which can overshadow other important information in the antibody sequence. This phenomenon is also commonly observed in many NLP scenarios.
 
